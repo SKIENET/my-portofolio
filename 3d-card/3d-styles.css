@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button {
+  width: 4rem;
+  border: none;
+  background: none;
+  border-radius: 30px;
+  font-weight: bold;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  height: 1.5rem;
+  cursor: pointer;
+  -webkit-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+}
+
+button.active {
+  background: #585858;
+  color: #fff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.container {
+  height: 100vh;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .card {
+  min-height: 80vh;
+  width: 25em;
+  -webkit-box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  padding: 0 2rem;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.container .card .sneaker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 2.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.container .card .sneaker .circle {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(245, 70, 66, 0.75)), to(rgba(8, 83, 156, 0.75)));
+  background: linear-gradient(to right, rgba(245, 70, 66, 0.75), rgba(8, 83, 156, 0.75));
+  position: absolute;
+  z-index: 1;
+}
+
+.container .card .sneaker img {
+  width: 20rem;
+  margin-top: 20px;
+  z-index: 2;
+  -webkit-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+}
+
+.container .card .info {
+  margin-top: 5rem;
+}
+
+.container .card .info h1 {
+  font-size: 1.5rem;
+}
+
+.container .card .info h3 {
+  color: #585858;
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.container .card .info .title {
+  padding-bottom: .5rem;
+  -webkit-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+}
+
+.container .card .info .sizes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.container .card .info .cta-btn {
+  margin-top: 3rem;
+  padding: 0.5rem;
+  background: none;
+  width: 100%;
+  border-radius: 30px;
+  -webkit-box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.container .card .info .cta-btn h4 {
+  text-align: center;
+}
+/*# sourceMappingURL=3d-styles.css.map */
