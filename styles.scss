@@ -629,5 +629,33 @@ h6 {
      
 }
 
+@media screen and (max-width:400px) {
+    .s2 .main-container .about-wrapper {
+        height: 780px;
+    }
+    
+    .s1 .main-container .intro-wrapper {
+        .right-column {
+            transform: translateY(-40px);
 
+            #preview-shadow, #preview {
+                width: 200px;
+            }
+        }
 
+        
+    } 
+    
+   
+}   
+
+            #preview-shadow, #preview {
+                width: 200px;
+            }
+        }
+
+        
+    } 
+    
+   
+}   

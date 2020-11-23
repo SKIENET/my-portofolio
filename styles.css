@@ -596,4 +596,17 @@ h6 {
     gap: 1rem;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .s2 .main-container .about-wrapper {
+    height: 780px;
+  }
+  .s1 .main-container .intro-wrapper .right-column {
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
+  .s1 .main-container .intro-wrapper .right-column #preview-shadow, .s1 .main-container .intro-wrapper .right-column #preview {
+    width: 200px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
