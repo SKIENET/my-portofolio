@@ -239,6 +239,10 @@ h6 {
   background: #7e4c74;
 }
 
+.s1 .main-container .intro-wrapper .left-column #cv {
+  text-align: center;
+}
+
 .s1 .main-container .intro-wrapper .right-column {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
