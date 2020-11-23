@@ -103,7 +103,7 @@ h6 {
             -moz-box-shadow: 7px 9px 24px 0px rgba(0,0,0,0.75);
             box-shadow: 7px 9px 24px 0px rgba(0,0,0,0.75);
             display: grid;
-            
+            // background-image: url(assets/chinku.png);
             grid-template-rows:3em 30em;
             border-radius: 5px 5px 0 0;
             grid-template-columns: 1fr 1fr;
@@ -172,13 +172,23 @@ h6 {
                 padding: 50px 0 0;
     
     
-                #profile-pic {
-                    display: block;
-                    margin: 0 auto;
-                    width: 200px;
-                    height: 200px;
-                    object-fit: cover;
+                // #profile-pic {
+                //     display: block;
+                //     margin: 0 auto;
+                //     width: 200px;
+                //     height: 200px;
+                //     object-fit: cover;
+                //     border: solid 2px var(--border-color);
+                // }
+
+                .profile-img {
+                    width: 180px;
+                    height: 180px;
+                    background-image: url(assets/imageedit_1_5655715772.png);
+                    background-position: center;
+                    // background-
                     border: solid 2px var(--border-color);
+                    margin: 0 auto;
                 }
 
                 h5 {
@@ -646,16 +656,10 @@ h6 {
         
     } 
     
-   
+    #preview-shadow, #preview {
+        width: 200px;
+    }
 }   
 
-            #preview-shadow, #preview {
-                width: 200px;
-            }
-        }
-
-        
-    } 
+           
     
-   
-}   

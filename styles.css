@@ -173,14 +173,13 @@ h6 {
   padding: 50px 0 0;
 }
 
-.s1 .main-container .intro-wrapper .left-column #profile-pic {
-  display: block;
-  margin: 0 auto;
-  width: 200px;
-  height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
+.s1 .main-container .intro-wrapper .left-column .profile-img {
+  width: 180px;
+  height: 180px;
+  background-image: url(assets/imageedit_1_5655715772.png);
+  background-position: center;
   border: solid 2px var(--border-color);
+  margin: 0 auto;
 }
 
 .s1 .main-container .intro-wrapper .left-column h5 {
@@ -606,6 +605,9 @@ h6 {
             transform: translateY(-40px);
   }
   .s1 .main-container .intro-wrapper .right-column #preview-shadow, .s1 .main-container .intro-wrapper .right-column #preview {
+    width: 200px;
+  }
+  #preview-shadow, #preview {
     width: 200px;
   }
 }
